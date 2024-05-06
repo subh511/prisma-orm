@@ -29,3 +29,20 @@ model Todo{
   description String?
   userId Int
 }
+
+
+// model User{
+//   id Int @id @default(autoincrement())
+//   email String @unique
+//   firstname String?
+//   lastname String?
+//   password String
+// }
+
+// model Todo{
+//   id Int @id @default(autoincrement())
+//   title String
+//   done Boolean @default(false)
+//   description String?
+//   userId Int
+// }
