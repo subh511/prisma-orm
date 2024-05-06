@@ -20,7 +20,13 @@ async function insertUser(
             password,
             firstname,
             lastname
+        },
+        select:{
+            id:true,
+            password: true
         }
     })
     console.log(response)
 }
+
+insertUser("Samrat12@gmail.com","password", "Samrat", "Doe")
